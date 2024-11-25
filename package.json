@@ -65,5 +65,18 @@
   "engines": {
     "node": ">=20"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "overrides": {
+    "ansi-regex": "^5.0.1",
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0"
+  },
+  "resolutions": {
+    "ansi-regex": "^5.0.1",
+    "**/ansi-regex": "^5.0.1",
+    "ajv": "^8.12.0",
+    "**/ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0",
+    "**/ajv-keywords": "^5.1.0"
+  }
 }
